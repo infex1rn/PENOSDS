@@ -7,7 +7,7 @@ RUN apt update && apt upgrade -y && apt install -y \
     build-essential clang cmake make ninja-build \
     python3 python3-pip python3-venv \
     nodejs npm \
-    debootstrap squashfs-tools xorriso \
+    debootstrap live-build squashfs-tools xorriso \
     grub-pc-bin grub-efi-amd64-bin mtools dosfstools \
     isolinux syslinux-common rsync parted gdisk \
     qemu-system-x86 qemu-utils \

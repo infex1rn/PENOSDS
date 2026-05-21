@@ -1,0 +1,8 @@
+linux-image-amd64
+systemd-sysv
+sudo
+network-manager
+openssh-client
+curl
+wget
+ca-certificates

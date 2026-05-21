@@ -1,2 +1,12 @@
 /builds/
 /logs/
+/iso/live-build/.build/
+/iso/live-build/binary*
+/iso/live-build/cache/
+/iso/live-build/chroot*
+/iso/live-build/config/binary
+/iso/live-build/config/bootstrap
+/iso/live-build/config/chroot
+/iso/live-build/config/common
+/iso/live-build/config/source
+/iso/live-build/live-image-*

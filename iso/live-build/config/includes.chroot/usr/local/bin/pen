@@ -1,0 +1,33 @@
+#!/bin/bash
+
+case "${1:-info}" in
+  info)
+    echo "======================================"
+    echo "              PENOS 0.1 Alpha          "
+    echo "======================================"
+    echo "Studio: INDEVSTUDIO"
+    echo "Base: Debian 13 Trixie"
+    echo "Desktop: KDE Plasma"
+    echo "Purpose: Developer-first Linux OS"
+    echo "======================================"
+    ;;
+
+  doctor)
+    echo "[PENOS DOCTOR]"
+    echo "[OK] Kernel: $(uname -r)"
+    echo "[OK] Architecture: $(uname -m)"
+    echo "[OK] Hostname: $(hostname)"
+    echo "[OK] User: $(whoami)"
+    ;;
+
+  update)
+    echo "[PENOS UPDATE]"
+    echo "The PENOS update layer is planned for a later phase."
+    ;;
+
+  *)
+    echo "pen: unknown command '$1'"
+    echo "Usage: pen {info|doctor|update}"
+    exit 1
+    ;;
+esac

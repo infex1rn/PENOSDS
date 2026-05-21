@@ -1,0 +1,9 @@
+PRETTY_NAME="PENOS 0.1 Alpha"
+NAME="PENOS"
+VERSION_ID="0.1-alpha"
+VERSION="0.1 Alpha"
+ID=penos
+ID_LIKE=debian
+HOME_URL="https://indevstudio.dev"
+SUPPORT_URL="https://indevstudio.dev"
+BUG_REPORT_URL="https://indevstudio.dev"

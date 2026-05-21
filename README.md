@@ -6,6 +6,12 @@ Product Type: Custom Linux desktop operating system
 Base System: Debian 13 “Trixie” Stable Minimal
 Primary Goal: Build a beautiful, lightweight, developer-first Linux OS that feels premium, runs well on older hardware like the Lenovo ThinkPad W530, and can later grow into a public downloadable distro with its own update system.
 
+Implementation tracking:
+
+- [Development phases](docs/phases.md)
+- [Phase 1 foundation](docs/phase-01-foundation.md)
+- [Build guide](docs/build-guide.md)
+
 ## 1. Executive Vision
 
 PENOS is not meant to be “just another Linux skin.”
